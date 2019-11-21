@@ -207,7 +207,7 @@ function execute(){
       var tempp1 = koor_1.split(',');
       var oReq = new XMLHttpRequest();
       oReq.onload = reqListener;
-      var url="http://localhost/GIS/find.php?x1="+tempp[0]+"&y1="+tempp[1]+"&x2="+tempp1[0]+"&y2="+tempp1[1];
+      var url="http://localhost/GIS/find3.php?x1="+tempp[0]+"&y1="+tempp[1]+"&x2="+tempp1[0]+"&y2="+tempp1[1];
       // var url="http://localhost/tryMap/find.php?x1="+elements[0].value+"&y1="+elements[1].value+"&x2="+elements[2].value+"&y2="+elements[3].value;
       oReq.open("GET",url, true);
       oReq.send();
